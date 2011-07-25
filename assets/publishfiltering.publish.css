@@ -14,11 +14,14 @@ form.publishfiltering {
 form.publishfiltering select {
 	width: auto;
 	display: inline-block;
+	
+	position: static !important;
+	left: 0px !important;
 }
 form.publishfiltering .field,
 form.publishfiltering input {
 	margin: 0 0.3em;
-	padding: 0.1em;
+	/*padding: 0.1em;*/
 	display: inline-block;
 }
 form.publishfiltering .field {
@@ -32,9 +35,9 @@ form.publishfiltering input.apply {
 	margin-right: 4px;
 }
 form.publishfiltering button.clear {
-	padding: 0;
+	/*padding: 0;
 	background: none;
 	border: none;
 	color: #aaa;
-	cursor: pointer;
+	cursor: pointer;*/
 }

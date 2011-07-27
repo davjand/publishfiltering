@@ -6,7 +6,7 @@
 		Extension definition
 	-------------------------------------------------------------------------*/
 		
-		private $_incompatible_publishpanel = array('mediathek', 'imagecropper', 'readonlyinput');
+		private $_incompatible_publishpanel = array('mediathek', 'imagecropper', 'readonlyinput','referencelink');
 		
 		public function about() {
 			return array(
